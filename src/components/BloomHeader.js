@@ -1,27 +1,27 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react"
+import styled from "styled-components"
 
 const BloomHeader = () => {
-    return(
+  return (
     <HeaderStyle>
       <div>Sprint Challenge 3.3</div>
-    </HeaderStyle>);
+    </HeaderStyle>
+  )
 }
 
-export default BloomHeader;
+export default BloomHeader
 
 const HeaderStyle = styled.nav`
   padding: 0.5em;
   background-color: #333333;
-  color:white;
+  color: white;
   font-size: 1.25rem;
   font-family: "Lato";
   display: flex;
   flex-direction: row;
   align-items: center;
-
   img {
     padding: 0.5em;
-    width:25px;
+    width: 25px;
   }
 `
